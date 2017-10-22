@@ -1,0 +1,16 @@
+{
+    "name": "astrostudio/cakephp.base-post",
+    "type": "cakephp-plugin",
+    "require": {
+        "composer/installers": "*",
+        "astrostudio/cakephp.base": "3.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\Post\\": "src"
+        }
+    },
+    "extra": {
+        "installer-name": "cakephp.base-post"
+    }
+}
